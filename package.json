@@ -1,0 +1,19 @@
+{
+  "name": "bikes",
+  "version": "1.0.0",
+  "description": "Bikes for Origo",
+  "main": "index.js",
+  "scripts": {
+    "test": "The test",
+    "start": "node api.js"
+  },
+  "author": "DG",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  }
+}
