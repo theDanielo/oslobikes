@@ -11,7 +11,7 @@ Shows availability for parking places and bikes for all stations in Oslo
 * run the command to install the libraries used in the application 
 `npm install`
 
-* run the command for running the webserver`npm run server`
+* run the command for running the webserver`npm run start`
 
 * Open  [localhost:8080/webapp](https://localhost:8080/webapp) in a web browser, or with the port you setup.
 
