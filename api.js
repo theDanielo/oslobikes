@@ -76,6 +76,9 @@ var server = app.listen(port, function () {
 
 
 /* websever */
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + '/webapp/index.html');
+});
 app.get("/webapp", (req, res) => {
     res.sendFile(__dirname + '/webapp/index.html');
 });
