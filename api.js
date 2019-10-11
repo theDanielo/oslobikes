@@ -3,7 +3,7 @@ const   express                     = require('express'),
         clientName                  = "danielgracia-bikesorigo",
         baseUrlAllStations          = "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json",
         baseUrlAllStationsStatus    = "https://gbfs.urbansharing.com/oslobysykkel.no/station_status.json",
-        port                        = 8080
+        port                        = 8077
 ;
 
 var app = express();
